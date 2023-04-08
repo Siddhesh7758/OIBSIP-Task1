@@ -1,0 +1,144 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Century Gothic';
+}
+body, html{
+    height: 100%;
+}
+
+ul{
+    text-decoration: none;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    font-family: 'Century Gothic';
+    width: 100%;
+    position: relative;
+}
+
+.logo{
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 22px;
+}
+
+.nav-links{
+    display: flex;
+    background-color: transparent;
+    justify-content: space-around;
+    width: 30%;
+}
+
+.nav-links li{
+    list-style: none;
+}
+
+.nav-links a{
+    
+    color: black;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 17px;
+    transition: 0.2s;
+}
+
+.nav-links a:hover{
+    border-color: black;
+    border: solid;
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    color:  #f5b942;
+}
+a:hover{
+    color:  #3bdb66;
+}
+
+button{
+    border: none;
+    background-color: #f5b942;
+    border-radius: 55px;
+    color: white;
+padding-left: 15px;
+padding-right: 15px;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+button:hover{
+    background-color:  #3bdb66;
+    border: none;
+    transition: 0.2s;
+    text-decoration: none;
+    color: white;
+}
+
+.bgimg {
+    background-image: url('../img/poly.jpg');
+  min-height: 100%;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+}
+
+.mid-head p{
+    font-size: 400%;
+    border: 3px solid  #f5b942;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.mid-head p:hover{
+transform: scale(1.1);
+}
+
+.nav-links a:hover{
+    border-color: #f5b942;
+    color: black;
+}
+
+.log{
+width: 20%;
+margin-right: 5%;
+
+}
+.log img{
+    height:150px;
+    width:auto;
+}
+.social{
+    color: #5c5c5c;
+}
+.news p{
+    font-size: 110%;
+    text-align: justify;
+}
+
+.news h2{
+    font-size: 30px;
+}
+
+.lineheight{
+  line-height: 30px;
+}
+
+
+@media only screen and (max-width: 900px) {
+   .mid-head .w3-display-left{
+        margin-left: 0%;
+        font-size: 100%;
+   }
+   
+}
